@@ -24,5 +24,6 @@ namespace BandAPI.Services
         bool BandExists(Guid bandId);
         bool AlbumExists(Guid albumId);
         bool Save();
+       
     }
 }
